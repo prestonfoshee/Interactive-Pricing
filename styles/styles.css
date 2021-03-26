@@ -1,0 +1,92 @@
+body {
+    background-image: url('../images/bg-pattern.svg');
+    background-repeat: no-repeat;
+    background-color:  hsl(230, 100%, 99%);
+  }
+
+.header {
+    margin: auto;
+    padding: 50px;
+    height: 150px;
+    /* margin-bottom: 100px; */
+    background-image:url('../images/pattern-circles.svg');
+    /* background-attachment: fixed; */
+    /* background-position: 0px 0px; */
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.header h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 30px;
+    color: hsl(227, 35%, 25%);
+    margin-bottom: -7px;
+    
+}
+
+.header p {
+    text-align: center;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 15px;
+    color: hsl(225, 20%, 60%);
+    opacity: 75%;
+}
+
+.main-container {
+    margin: auto;
+    width: 40%;
+    border-radius: 9px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.main-container p {
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(225, 20%, 60%);
+}
+
+.main-container-bottom {
+    position: relative;
+}
+
+.icon-check {
+    margin-top: 5px;
+    float: left;
+}
+
+#pageviews {
+    text-transform: uppercase;
+}
+
+#button-container {
+    text-align: center;
+}
+
+#dollar-amount {
+    font-size: 30px;
+    font-weight: 800;
+    color: hsl(227, 35%, 25%);
+}
+
+#start-trial-button {
+    width: 60%;
+    height: 33px;
+    display: inline-block;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    border-radius: 2em;
+    padding: 0.3em 1.2em;
+    font-size: 11px;
+    font-weight: 300;
+    color: hsl(226, 100%, 87%);
+    background-color: hsl(227, 35%, 25%);
+    border: none;
+}
