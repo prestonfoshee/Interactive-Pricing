@@ -14,13 +14,17 @@
 <body>
   <div class="header">
     <h1 class="header-child">Simple, traffic-based pricing</h1>
-    <p class="header-child">Sign-up for our 30-day trial. No credit card required.</p>
+    <p class="header-child">Sign-up for our 30-day trial.</p>
+    <p class="header-child">No credit card required.</p>
     <!-- <img id="circles" src="images/pattern-circles.svg" /> -->
   </div>
 
   <div class="main-container">
-    <p id="pageviews"><span>100K </span>pageviews</p>
-    <p><span id="dollar-amount">$16.00 </span>/month</p>
+    <p><span id="value">100K</span> pageviews</p>
+    <div class="range-container">
+      <input id="range" class="range-slider" type="range" min="1" max="100" value="50" />
+    </div>
+    <p><span id="dollar-amount">$16</span> /month</p>
     <p>Monthly Billing</p>
     <p>Yearly Billing </p>
     <p>25% discount</p>
@@ -42,5 +46,6 @@
     Coded by <a href="#">Preston Foshee</a>.
   </div> -->
 </body>
+<script src="./js/slider.js"></script>
 
 </html>
